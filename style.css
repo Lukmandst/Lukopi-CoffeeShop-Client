@@ -97,17 +97,7 @@ body {
   font-family: var(--main-font);
 }
 
-/* .navbar-brand {
-  font-weight: 700;
-}
-
-.nav-link {
-  font-weight: 400;
-}
-.nav-link.active {
-  color: #6a4029;
-  font-weight: 700;
-} */
+/* Navbar Button Start */
 
 .button-login {
   background-color: transparent;
@@ -117,7 +107,7 @@ body {
 }
 .button-login:hover,
 .button-login:focus {
-box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+  box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
   transition: 0.6s;
 }
 
@@ -136,9 +126,9 @@ box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
   transition: 0.6s;
 }
 
-/* Navigation Bar End */
+/* Navbar Button End */
 
-/* Hero Section */
+/* Hero Section Start*/
 
 .hero-image {
   position: relative;
@@ -187,10 +177,11 @@ box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
   transition: 0.6s;
 }
 
-.row {
-  color: white;
+/* Hero Section End */
+
+/* Footer Start */
+.footer {
+  background-color: #f8f8f8;
+  height: 528px;
 }
-.col-md-6 {
-  margin-top: 78px;
-  margin-left: 135px;
-}
+/* Footer End */
