@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+  --main-color: #efb60e;
+  --second-color: #6a4029;
+  --third-color: #bcbaba;
+  --fourth-color: #4f5665;
+
+  --main-font: "Rubik", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* section {
+  /* margin-top: 200px; */
+
+.container {
+  max-width: 1440px;
+  margin: 0;
+}
+/* Navigation Bar Start */
+/* .nav-size{
+    margin-top: 129px;
+    border-radius: 10px;
+} */
+
+.navbar {
+  background-color: wheat;
+  margin: auto;
+  height: 110px;
+}
+
+.navbar .nav-wrapper {
+  /* padding: 10px; */
+  background-color: violet;
+  /* padding-top: 59px; */
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  /* justify-items: center; */
+  justify-content: space-between;
+  /* text-align: justify; */
+}
+
+.nav-wrapper .logo {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+.logo-img {
+  width: 30px;
+  height: 33px;
+}
+
+.menu-wrapper {
+  display: flex;
+  gap: 50px;
+  background-color: whitesmoke;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--fourth-color);
+  font-family: var(--main-font);
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-member {
+  background-color: #6a4029;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 20px;
+  /* padding-bottom: 10px; */
+}
+
+.menu-item-home {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--second-color);
+  font-family: var(--main-font);
+}
+
+/* .navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+.nav-link.active {
+  color: #6a4029;
+  font-weight: 700;
+} */
+
+.button-login {
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
+
+.button-signup {
+  color: #6a4029;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffba33;
+}
+.button-signup:hover,
+.button-signup:focus {
+  box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+  transition: 0.6s;
+}
+
+/* Navigation Bar End */
+
+/* Hero Section */
+
+.hero-image {
+  position: relative;
+  height: 800px;
+  background-image: url(/assets/image/nathan-dumlao-71u2fOofI-U-unsplash\ 2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.hero-image {
+  background-color: #6a4029;
+}
+.container-hero {
+  position: relative;
+  padding-top: 78px;
+  padding-left: 150px;
+  color: white;
+}
+.header-hero {
+  width: 570px;
+  height: 140px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.p-hero {
+  width: 555px;
+  height: 90px;
+  left: 150px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.btn-hero {
+  position: relative;
+  top: 38px;
+  color: #6a4029;
+  font-weight: 700;
+  width: 250px;
+  height: 60px;
+  background-color: #ffba33;
+  border: none;
+  border-radius: 10px;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+  transition: 0.6s;
+}
+
+.row {
+  color: white;
+}
+.col-md-6 {
+  margin-top: 78px;
+  margin-left: 135px;
+}

@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: white;
+}
+
+.container {
+  max-width: 1500px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* height: 1080px; */
+}
+.main-content{
+    height: 100%;
+    margin: auto;
+}
+
+.login-header{
+    background-color: #29296a;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo-text{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-align:start;
+}
+
+.section-menu{
+    background-color: #16d48b;
+    text-align: center;
+}
+
+.side-photo {
+  width: 682px;
+  height: 1100px;
+  max-width: 100%;
+}
+
+.lukopi-logo {
+  width: 30px;
+  height: 33px;
+}
+.button-signup {
+  color: #6a4029;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffba33;
+}
+.button-signup:hover,
+.button-signup:focus {
+  box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.4);
+  transition: 0.6s;
+}
+.google-btn {
+  width: 27px;
+  height: 28px;
+}
