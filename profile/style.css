@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  height: 157px;
+  padding-right: 175px;
+  padding-left: 175px;
+}
+
+section {
+  padding-right: 175px;
+  padding-left: 175px;
+}
+footer {
+  background-color: burlywood;
+  /* padding-right: 175px;
+  padding-left: 175px; */
+}
+
+.navbar {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+/* .nav-wrapper {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+} */
+
+.logo-img {
+  height: 30px;
+  align-items: baseline;
+}
+.navlogo .logo-img {
+  /* background-color: black; */
+  align-items: center;
+}
+
+.menu-wrapper > ul {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-member > ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profile-section {
+  background-image: url(/assets/image/stock/nathan-dumlao-XOhI_kW_TaM-unsplash\ 1.jpg);
+}
+
+.profile-section h2 {
+  color: #ffffff;
+}
+.profile-box {
+  background-color: #ffffff;
+}
+.profile-section .wrapper {
+  /* background-color: aquamarine; */
+  display: flex;
+}
+
+.profile-box {
+  width: 100%;
+  height: 951px;
+
+  /* background: #df1717; */
+  border-radius: 20px;
+}
+
+/* .profile-box .wrapper {
+  display: flex;
+} */
+
+.profile-details {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  width: 100%;
+  height: 841px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+.profile-details .edit-btn {
+  height: 30px;
+}
+
+.profile-details .form-wrapper {
+  background-color: rgb(234, 255, 0);
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+}
+
+.profile-details .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

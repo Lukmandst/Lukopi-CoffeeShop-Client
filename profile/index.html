@@ -5,29 +5,213 @@
     <meta name="description" content="Lukopi-Coffee Shop" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lukopi - Coffee Shop</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    
+    <title>Profile</title>
+    <link rel="icon" href="/assets/image/stock/coffee 1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/profile/style.css" />
   </head>
 
   <body>
-    <h1>HOMEPAGE</h1>
-    <nav class="home">
-      <ul>
-        <li><a href="/"></a>Home</li>
-        <li><a href="/product"></a>Product</li>
-        <li><a href="/yourCart"></a>Your Cart</li>
-        <li><a href="/history"></a>History</li>
-        <li><a href="/login"></a>Login</li>
-        <li><a href="/signUp"></a>Sign Up</li>
-      </ul>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      
+        <!-- logo -->
+        <div class="navlogo">
+          <a class="navbar-brand" href="/">
+            <img
+              src="/assets/image/stock/coffee 1.png"
+              alt="LukopiLogo"
+              class="logo-img"
+            />
+            <span class="logo">Lukopi</span>
+          </a>
+        </div>
+        <!-- Middle Menu -->
+        <div class="menu-wrapper">
+          <ul class="menu">
+            <li class="menu-item-home">
+              <a class="active" href="/">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Product</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Your Cart</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">History</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Member section -->
+        <div class="nav-member">
+          <ul>
+            <li>
+              <button class="btn-search" href="#">
+                <a href="#"></a>
+              </button>
+            </li>
+            <li>
+              <button class="btn-msg" href="#">
+                <a href="#">Sign Up</a>
+              </button>
+            </li>
+            <li>
+              <button class="btn-profile" href="#">
+                <a href="#">Sign Up</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      
     </nav>
+    <!-- Navbar End -->
 
+    <!-- Section Start -->
+
+    <section class="profile-section">
+      <h2>User Profile</h2>
+
+      <div class="profile-box">
+        <div class="wrapper">
+          <div class="profile-menu">
+            <img src="" alt="profile-image" class="profile-img" />
+            <h4>Zulaikha</h4>
+            <p>zulaikha17@gmail.com</p>
+            <button class="choose-pict" href="#">
+              <a href="#">Choose photo</a>
+            </button>
+            <button class="remove-pict" href="#">
+              <a href="#">Remove photo</a>
+            </button>
+            <button class="edit-pass" href="#">
+              <a href="#">Edit Password</a>
+            </button>
+            <p>Do you want to save the change?</p>
+            <button class="save-chg" href="#">
+              <a href="#">Save Change</a>
+            </button>
+            <button class="cancel" href="#">
+              <a href="#">cancel</a>
+            </button>
+            <button class="log-out" href="#">
+              <a href="#">Log out</a>
+            </button>
+          </div>
+          <article class="profile-details">
+            <div class="head">
+              <h3>Contacts</h3>
+              <button class="edit-btn">
+                <img src="/assets/image/Vector.svg" alt="" />
+              </button>
+            </div>
+
+            <div class="form-wrapper">
+              <form>
+                <label for="email">Email adress :</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  value="zulaikha17@gmail.com"
+                /><br />
+                <label for="d-address">Delivery Adress :</label><br />
+                <input
+                  type="text"
+                  id="d-address"
+                  value="Iskandar Street no. 67 Block A Near Bus Stop"
+                /><br />
+                <label for="m-number">Mobile Number:</label><br />
+                <input type="integer" id="m-number" value="(+62)813456782" />
+              </form>
+            </div>
+
+            <h3>Details</h3>
+            <div class="form-wrapper">
+              <form>
+                <label for="d-name">Display name:</label><br />
+                <input type="text" id="d-name" value="Zulaikha" /><br />
+                <label for="f-name">First name:</label><br />
+                <input type="text" id="f-name" value="Zulaikha" /><br />
+
+                <label for="l-name">Last name:</label><br />
+                <input type="text" id="l-name" value="Nirmala" /><br />
+                <label for="b-day">DD/MM/YY</label><br />
+                <input type="text" id="b-day" value="03/04/90" /><br />
+                <!-- Male / Female -->
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male">Male</label><br />
+                <input type="radio" id="female" name="gender" value="Female" />
+                <label for="female">Female</label><br />
+              </form>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <section class="footer-section-A">
+        <div class="logo">Lukopi</div>
+        <p class="desc">
+          Coffee Shop is a store that sells some good meals, and especially
+          coffee. We provide high quality beans
+        </p>
+      </section>
+
+      <section class="footer-section-B">
+        <div class="menu-list">
+          <ul>
+            <li class="item-product">
+              <a href="#">Product</a>
+            </li>
+            <li class="item-download">
+              <a href="#">Download</a>
+            </li>
+            <li class="item-pricing">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="item-locations">
+              <a href="#">Locations</a>
+            </li>
+            <li class="item-countries">
+              <a href="#">Countries</a>
+            </li>
+            <li class="item-blog">
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="footer-section-C">
+        <div class="menu-list">
+          <ul>
+            <li class="item-product">
+              <a href="#">Engage</a>
+            </li>
+
+            <li class="item-coffeshop">
+              <a href="#">Coffe Shop ?</a>
+            </li>
+            <li class="item-faq">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="item-aboutus">
+              <a href="#">About Us</a>
+            </li>
+            <li class="item-privacypolicy">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="item-tos">
+              <a href="#">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer End -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
