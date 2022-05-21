@@ -190,7 +190,12 @@ a{
 
 /* Footer Start */
 .footer {
-  background-color: #f8f8f8;
-  height: 528px;
+  color: #4f5665;
+  background-color: yellowgreen;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 150px;
 }
 /* Footer End */
