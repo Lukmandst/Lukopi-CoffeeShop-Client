@@ -21,6 +21,9 @@ body {
   list-style: none;
   text-decoration: none;
 }
+a{
+  color: inherit;
+}
 
 /* section {
   /* margin-top: 200px; */
