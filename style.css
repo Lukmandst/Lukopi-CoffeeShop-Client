@@ -21,6 +21,7 @@ body {
   list-style: none;
   text-decoration: none;
 }
+
 a{
   color: inherit;
 }
@@ -57,16 +58,20 @@ a{
   /* text-align: justify; */
 }
 
-.nav-wrapper .logo {
+.nav-wrapper .brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   color: black;
   font-weight: 700;
   font-size: 20px;
   bottom: 20px;
 }
-.logo-img {
+.brand-logo >img{
   width: 30px;
   height: 33px;
 }
+
 
 .menu-wrapper {
   display: flex;
@@ -142,7 +147,7 @@ a{
 .hero-image {
   position: relative;
   height: 800px;
-  background-image: url(/assets/image/nathan-dumlao-71u2fOofI-U-unsplash\ 2.jpg);
+  background-image: url(/assets/image/stock/nathan-dumlao-71u2fOofI-U-unsplash\ 2.jpg);
   background-position: center;
   background-size: cover;
 }
