@@ -22,23 +22,11 @@ body {
   text-decoration: none;
 }
 
-a,a:hover{
+a,
+a:hover {
   color: inherit;
   text-decoration: none;
 }
-
-/* section {
-  /* margin-top: 200px; */
-
-.container {
-  max-width: 1440px;
-  margin: 0;
-}
-/* Navigation Bar Start */
-/* .nav-size{
-    margin-top: 129px;
-    border-radius: 10px;
-} */
 
 .navbar {
   /* background-color: wheat; */
@@ -68,11 +56,10 @@ a,a:hover{
   font-size: 20px;
   bottom: 20px;
 }
-.brand-logo >img{
+.brand-logo > img {
   width: 30px;
   height: 33px;
 }
-
 
 .menu-wrapper {
   display: flex;
@@ -194,14 +181,87 @@ a,a:hover{
 
 /* Hero Section End */
 
-/* Footer Start */
-.footer {
+/* footer */
+
+.footer-clean {
+  height: 416px;
   color: #4f5665;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   margin-top: 65px;
-  display: flex;
   justify-content: space-between;
-  margin-right: 150px;
-  margin-left: 150px;
 }
-/* Footer End */
+.socmed-wrap .circle {
+  background-color: #6a4029;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  row-gap: 20px;
+}
+.socmed-wrap .fb {
+  background-image: url(/assets/image/vector/fb.svg);
+  background-position: center;
+}
+
+.socmed-wrap .twt {
+  background-image: url(/assets/image/vector/twitter.svg);
+  background-position: center;
+}
+
+.socmed-wrap .ig {
+  background-image: url(/assets/image/vector/ig.svg);
+  background-position: center;
+}
+
+.f-wrapper {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+.logo .brand-name {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.desc-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: solid;
+}
+.item {
+  margin-top: 10%;
+  /* background-color: #6a4029; */
+  justify-content: center;
+  align-items: center;
+}
+
+.f-wrapper .side .wrapper {
+  position: relative;
+  left: 200px;
+  width: 37%;
+  /* text-align: right; */
+  /* left: 50px; */
+  /* background-color: #6a4029; */
+}
+
+.item .wrapper > ul > li {
+  font-weight: 400;
+  font-size: 16px;
+}
+.item > h4 {
+  margin-right: 25px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.f-wrapper .main {
+  gap: 20px;
+  /* background-color: #ffba33; */
+}
+
+.f-wrapper .side .one {
+  left: 300px;
+}
