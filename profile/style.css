@@ -24,11 +24,7 @@ section {
   padding-right: 175px;
   padding-left: 175px;
 }
-footer {
-  background-color: burlywood;
-  /* padding-right: 175px;
-  padding-left: 175px; */
-}
+
 
 .navbar {
   background-color: blueviolet;
@@ -121,4 +117,79 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Footer */
+
+.footer-clean{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-clean .container{
+  background-color: antiquewhite;
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-between; */
+  margin: auto;
+  /* align-items: center; */
+}
+
+.f-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.f-wrapper {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+.logo .brand-name {
+  color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.desc-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: solid;
+}
+.item {
+  margin-top: 10%;
+  /* background-color: #6a4029; */
+  justify-content: center;
+  align-items: center;
+}
+
+.f-wrapper .side .wrapper {
+  position: relative;
+  left: 200px;
+  width: 37%;
+  /* text-align: right; */
+  /* left: 50px; */
+  /* background-color: #6a4029; */
+}
+
+.item .wrapper > ul > li {
+  font-weight: 400;
+  font-size: 16px;
+}
+.item > h4 {
+  margin-right: 25px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.f-wrapper .main {
+  gap: 20px;
+  /* background-color: #ffba33; */
+}
+
+.f-wrapper .side .one {
+  left: 300px;
 }
