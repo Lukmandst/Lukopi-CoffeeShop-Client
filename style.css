@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;900&display=swap");
 :root {
   --main-color: #efb60e;
   --second-color: #6a4029;
@@ -180,6 +179,7 @@ a:hover {
 
 /* Hero Section End */
 
+/* section start */
 .home-1 .row {
   display: flex;
   height: 645px;
@@ -187,6 +187,70 @@ a:hover {
 }
 .left-col > div > img {
   height: 457px;
+}
+
+.home-2 {
+  text-align: center;
+}
+
+.home-2 .row .wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 567px;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.home-2 .row .wrapper .img-wrapper {
+  position: absolute;
+  top: -75px;
+}
+
+.img-wrapper >p{
+  margin-top: 20px;
+}
+
+.home-2 .row .wrapper > div > img {
+  width: 128.98px;
+  height: 128.98px;
+  border-radius: 128.98px;
+  filter: drop-shadow(0px 40px 40px rgba(0, 0, 0, 0.07));
+}
+
+.home-2 .row .wrapper > ul {
+  margin-top: 150px;
+  padding: 0px;
+  text-align: left;
+}
+
+.home-2 .row .wrapper > div > p {
+  font-weight: 500;
+  font-size: 25px;
+
+  color: #0b132a;
+}
+
+.order-wrap {
+  position: absolute;
+  bottom: 50px;
+}
+
+.order-btn {
+  background-color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6a4029;
+  width: 177.88px;
+  height: 45px;
+  border: 2px solid #ffba33;
+  border-radius: 50px;
 }
 
 /* footer */
@@ -220,6 +284,9 @@ a:hover {
   background-position: center;
 }
 
+footer {
+  background-color: #f8f8f8;
+}
 .f-wrapper {
   font-weight: 500;
   font-size: 16px;
@@ -271,6 +338,10 @@ a:hover {
 }
 
 .f-wrapper .side .one {
+  left: 300px;
+}
+
+.f-wrapper .side .two {
   left: 300px;
 }
 
