@@ -122,6 +122,10 @@ section {
 
 /* Footer */
 
+
+footer{
+  background-color: #f8f8f8;
+}
 .footer-clean{
   display: flex;
   flex-direction: row;

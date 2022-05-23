@@ -221,6 +221,10 @@ a:hover {
 
 /* footer */
 
+footer{
+  background-color: #f8f8f8;
+}
+
 .footer-clean {
   height: 416px;
   color: #4f5665;
