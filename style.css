@@ -9,8 +9,6 @@
   --main-font: "Rubik", sans-serif;
 }
 
-
-
 body {
   font-family: var(--main-font);
   background-color: white;
@@ -74,8 +72,6 @@ a:hover {
   align-items: center;
 }
 
-
-
 .nav-member {
   /* background-color: #6a4029; */
   display: flex;
@@ -133,7 +129,8 @@ a:hover {
 
 .hero-image {
   position: relative;
-  height: 800px;
+  width: auto;
+  height: 645px;
   background-image: url(/assets/image/stock/nathan-dumlao-71u2fOofI-U-unsplash\ 2.jpg);
   background-position: center;
   background-size: cover;
@@ -147,6 +144,10 @@ a:hover {
   padding-left: 150px;
   color: white;
 }
+
+.col-hero {
+  flex-direction: column;
+}
 .header-hero {
   width: 570px;
   height: 140px;
@@ -156,7 +157,6 @@ a:hover {
 .p-hero {
   width: 555px;
   height: 90px;
-  left: 150px;
   font-weight: 700;
   font-size: 20px;
 }
@@ -179,6 +179,15 @@ a:hover {
 }
 
 /* Hero Section End */
+
+.home-1 .row {
+  display: flex;
+  height: 645px;
+  flex-wrap: wrap;
+}
+.left-col > div > img {
+  height: 457px;
+}
 
 /* footer */
 
@@ -266,17 +275,25 @@ a:hover {
 }
 
 /* jika layar hp maka */
-@media screen and (max-width: 660px){
-  .menu{
+@media screen and (max-width: 660px) {
+  .menu {
     flex-direction: column;
     align-items: center;
     gap: 0px;
   }
-  .navbar .nav-wrapper{
+  .navbar .nav-wrapper {
     margin: auto;
   }
-  .nav-member{
-    margin:auto;
-    justify-content:space-around;
+  .nav-member {
+    margin: auto;
+    justify-content: space-around;
+  }
+  .hero-image {
+    height: 10%;
+    background-position: (bottom 20%);
+  }
+  .left-col > div > img {
+    height: 250px;
+    align-items: center;
   }
 }
