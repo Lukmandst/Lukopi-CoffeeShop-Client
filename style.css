@@ -9,6 +9,8 @@
   --main-font: "Rubik", sans-serif;
 }
 
+
+
 body {
   font-family: var(--main-font);
   background-color: white;
@@ -28,22 +30,15 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar {
-  /* background-color: wheat; */
-  /* margin: auto; */
-  padding-top: 35px;
-  height: 110px;
-}
-
 .navbar .nav-wrapper {
   /* padding: 10px; */
   /* background-color: violet; */
   /* padding-top: 59px; */
   margin-left: 150px;
   margin-right: 150px;
-  display: flex;
+  /* display: flex; */
   /* justify-items: center; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* text-align: justify; */
 }
 
@@ -63,6 +58,7 @@ a:hover {
 
 .menu-wrapper {
   display: flex;
+  justify-content: space-between;
   padding-top: 10px;
   gap: 50px;
   /* background-color: whitesmoke; */
@@ -75,7 +71,10 @@ a:hover {
 .menu {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
+
+
 
 .nav-member {
   /* background-color: #6a4029; */
@@ -264,4 +263,20 @@ a:hover {
 
 .f-wrapper .side .one {
   left: 300px;
+}
+
+/* jika layar hp maka */
+@media screen and (max-width: 660px){
+  .menu{
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .navbar .nav-wrapper{
+    margin: auto;
+  }
+  .nav-member{
+    margin:auto;
+    justify-content:space-around;
+  }
 }
