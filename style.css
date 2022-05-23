@@ -256,21 +256,48 @@ a:hover {
 
 /* section 3 */
 
-.home-3{
+.home-3 {
   display: flex;
   flex-direction: column;
   margin-top: 180px;
   align-items: center;
   text-align: center;
 }
-.home-3 >img{
+.home-3 > img {
   margin-top: 150px;
-  width: auto;
-  height: auto;
 }
 
 /* section 4 */
 
+.home-4 {
+  text-align: center;
+  margin-top: 53px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-4 > div > img {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* section 5 */
+
+.home-5 {
+  text-align: center;
+  margin-top: 70px;
+}
+.testi{
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.testi-wrapper {
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  width: 400px;
+  height: 230px;
+}
 
 /* footer */
 
@@ -385,5 +412,13 @@ footer {
   .left-col > div > img {
     height: 250px;
     align-items: center;
+  }
+  .home-3 > img {
+    margin-top: 100px;
+    width: 350px;
+  }
+  .testi-wrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
