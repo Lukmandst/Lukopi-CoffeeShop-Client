@@ -198,11 +198,12 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 330px;
-  height: 567px;
+  height: 600px;
   background: #ffffff;
   border: 2px solid #dddddd;
   border-radius: 10px;
   align-items: center;
+  margin-top: 200px;
   margin-right: 25px;
   margin-left: 25px;
 }
@@ -212,7 +213,7 @@ a:hover {
   top: -75px;
 }
 
-.img-wrapper >p{
+.img-wrapper > p {
   margin-top: 20px;
 }
 
@@ -252,6 +253,9 @@ a:hover {
   border: 2px solid #ffba33;
   border-radius: 50px;
 }
+
+
+
 
 /* footer */
 
