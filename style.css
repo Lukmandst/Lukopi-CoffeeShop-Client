@@ -184,12 +184,20 @@ a:hover {
   display: flex;
   height: 645px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .left-col > div > img {
   height: 457px;
 }
 
+.right-col >ul{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
 .home-2 {
+  margin-top: 50px;
   text-align: center;
 }
 
