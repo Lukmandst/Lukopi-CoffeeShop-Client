@@ -299,6 +299,40 @@ a:hover {
   height: 230px;
 }
 
+.page-bar{
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.page{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+
+}
+.next-prev{
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.page > button{
+ width: 15px;
+ height: 15px;
+ border-radius: 15px;
+ border: none;
+ background-color: #dde0e4;
+}
+
+.next-prev > button{
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  border:2px solid  #6A4029;
+}
+
 /* footer */
 
 .footer-clean {
