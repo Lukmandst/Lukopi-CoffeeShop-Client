@@ -313,7 +313,7 @@ a:hover {
   margin-top: 70px;
 }
 .testi {
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 60px;
 }
 .testi-wrapper {
@@ -390,8 +390,8 @@ a:hover {
 /* card */
 
 .card {
-  width: 100%;
-  height: 23%;
+  width: 75%;
+  height: 233px;
   /* background: #ffffff; */
   border-radius: 10px;
   display: block;
@@ -403,10 +403,9 @@ a:hover {
 }
 
 .card-wrapper {
-  position: absolute;
-  left: 10%;
-  right: 10%;
-  top: 4050px;
+  position: relative;
+  left: 0%;
+  right: 15%;
 }
 .card-body > ul {
   width: 410px;
