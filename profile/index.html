@@ -75,44 +75,56 @@
 
     <!-- Section Start -->
 
-    <section class="profile-section">
-      <h2>User Profile</h2>
+    <section
+      class="profile-section"
+      style="padding-top: 40px; padding-bottom: 40px"
+    >
+      <h2 style="margin-bottom: 20px">User Profile</h2>
 
       <div class="profile-box">
-        <div class="wrapper">
-          <div class="profile-menu">
-            <div
+        <div class="row wrapper" style="padding: 50px">
+          <aside class="col profile-menu" style="max-width: 300px">
+            <div class="profile-pict"></div>
+            <h4 style="font-weight: 700; font-size: 20px">Zulaikha</h4>
+            <p style="font-weight: 400; font-size: 15px">
+              zulaikha17@gmail.com
+            </p>
+            <button class="choose-pict" href="#">Choose photo</button>
+            <br />
+            <button
+              class="remove-pict"
+              href="#"
+              style="color: #fff; background-color: #6a4029; margin-top: 15px;"
+            >
+              Remove photo</button
+            ><br />
+            <button class="edit-pass" href="#" style="margin-top: 40px;margin-bottom: 40px">Edit Password</button>
+            <p
               style="
-                width: 185px;
-                height: 185px;
-                border-radius: 100px;
-                background: url(/assets/image/stock/profile-img.png);
-                background-size: 185px;
+                margin: auto;
+                width: 207px;
+                height: 60px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                color: #6a4029;
+                text-shadow: 0px 6px 9px rgba(255, 255, 255, 0.21);
               "
-            ></div>
-            <h4>Zulaikha</h4>
-            <p>zulaikha17@gmail.com</p>
-            <button class="choose-pict" href="#">
-              <a href="#">Choose photo</a>
-            </button>
-            <button class="remove-pict" href="#">
-              <a href="#">Remove photo</a>
-            </button>
-            <button class="edit-pass" href="#">
-              <a href="#">Edit Password</a>
-            </button>
-            <p>Do you want to save the change?</p>
-            <button class="save-chg" href="#">
-              <a href="#">Save Change</a>
-            </button>
-            <button class="cancel" href="#">
-              <a href="#">cancel</a>
-            </button>
-            <button class="log-out" href="#">
-              <a href="#">Log out</a>
-            </button>
-          </div>
-          <article class="profile-details">
+            >
+              Do you want to save the change?
+            </p>
+            <button
+              class="save-chg"
+              href="#"
+              style="color: #fff; background-color: #6a4029; margin-top: 40px; margin-bottom: 15px;"
+            >
+              Save Change</button
+            ><br />
+            <button class="cancel" href="#">Cancel</button><br />
+            <button class="log-out" href="#" style="margin-top: 100%;">Log out</button>
+          </aside>
+          <article class="col profile-details" style="padding: 15px">
             <div class="head">
               <h3>Contacts</h3>
               <button class="edit-btn">
@@ -163,7 +175,6 @@
                   <label for="b-day">DD/MM/YY</label><br />
                   <input type="text" id="b-day" value="03/04/90" /><br />
                 </form>
-                
               </div>
               <!-- Male / Female -->
               <input type="radio" id="male" name="gender" value="Male" />
